@@ -29,3 +29,5 @@ source myenv/bin/activate
 cd ..
 echo -e '\n\n#Source python venv\nsource ~/python/myenv/bin/activate' >> .bashrc
 
+# Git config
+cat gitconfig | tee -a ~/.gitconfig
